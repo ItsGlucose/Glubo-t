@@ -1,13 +1,13 @@
 const mineflayer = require("mineflayer");
 const moment = require("moment");
 const readline = require("readline");
-  const reconnectDelay = 5000; // 5 seconds delay
+const reconnectDelay = 5000; // 5 seconds delay
 
-const username = "test";
-const serverIP = "play.paradise-city.ir";
-const serverPort = 25565;
-const version = "1.19.3";
-const physicsEnabled = true;
+const username = "test"; //Bot's username
+const serverIP = "play.paradise-city.ir"; //ip address you want it connect to
+const serverPort = 25565; //port of the server(25565 by default)
+const version = "1.19.3"; //version of bots client
+const physicsEnabled = true; //allows you to enable/diable physics of bot
 
 let bot;
 
